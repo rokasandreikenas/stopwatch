@@ -31,7 +31,7 @@
       stopButton.addEventListener("click", stopTime);
       resetButton.addEventListener("click", resetTime);
 
-      let sec = 0;
+      let sec = 45;
       let mins = 0;
       let isTimerStarted = false;
 
@@ -45,7 +45,7 @@
           }
           if (sec >= 60) {
             mins++;
-            sec = 0;
+            sec = "0" + 0;
           }
 
           time.innerText = mins + ":" + sec;
