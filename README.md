@@ -1,0 +1,2 @@
+# calculator
+Vannila Javascript calculator
